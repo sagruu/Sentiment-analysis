@@ -59,7 +59,6 @@ Each approach supports **pseudo-labeling**: hard labels and weak labels are comb
 
 Best configuration: **Zero-Shot weak labeling** with `weight_weak=1.0` achieves F1 **0.876** at 40% labeled split, consistently outperforming Centroid-based labeling across all split sizes and weight configurations.
 
-![Weighted Metrics](results/my_weighted_reports/metrics_lineplots_weighted.png)
 
 ### Key Findings
 
@@ -110,3 +109,4 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook Sentimentanalyse/main.ipynb
 ```
+
