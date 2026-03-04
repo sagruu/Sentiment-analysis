@@ -1,0 +1,368 @@
+{
+  "0.1": {
+    "cv_accuracy": 0.8386539682539682,
+    "cv_f1": 0.8384012847939637,
+    "test_accuracy": 0.8388888888888889,
+    "test_f1": 0.8388142796867442,
+    "classification_report": {
+      "0": {
+        "precision": 0.8191489361702128,
+        "recall": 0.8651685393258427,
+        "f1-score": 0.8415300546448088,
+        "support": 89.0
+      },
+      "1": {
+        "precision": 0.8604651162790697,
+        "recall": 0.8131868131868132,
+        "f1-score": 0.8361581920903954,
+        "support": 91.0
+      },
+      "accuracy": 0.8388888888888889,
+      "macro avg": {
+        "precision": 0.8398070262246413,
+        "recall": 0.8391776762563279,
+        "f1-score": 0.8388441233676021,
+        "support": 180.0
+      },
+      "weighted avg": {
+        "precision": 0.8400365605585793,
+        "recall": 0.8388888888888889,
+        "f1-score": 0.8388142796867442,
+        "support": 180.0
+      }
+    },
+    "model_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "embedding_info": {
+      "train_shape": [
+        626,
+        768
+      ],
+      "test_shape": [
+        180,
+        768
+      ],
+      "model_name": "distilbert-base-uncased"
+    }
+  },
+  "0.2": {
+    "cv_accuracy": 0.8611123505976096,
+    "cv_f1": 0.8610474531087231,
+    "test_accuracy": 0.8523676880222841,
+    "test_f1": 0.8523676880222841,
+    "classification_report": {
+      "0": {
+        "precision": 0.8406593406593407,
+        "recall": 0.864406779661017,
+        "f1-score": 0.8523676880222841,
+        "support": 177.0
+      },
+      "1": {
+        "precision": 0.864406779661017,
+        "recall": 0.8406593406593407,
+        "f1-score": 0.8523676880222841,
+        "support": 182.0
+      },
+      "accuracy": 0.8523676880222841,
+      "macro avg": {
+        "precision": 0.8525330601601788,
+        "recall": 0.8525330601601788,
+        "f1-score": 0.8523676880222841,
+        "support": 359.0
+      },
+      "weighted avg": {
+        "precision": 0.8526984322980735,
+        "recall": 0.8523676880222841,
+        "f1-score": 0.8523676880222841,
+        "support": 359.0
+      }
+    },
+    "model_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "embedding_info": {
+      "train_shape": [
+        1253,
+        768
+      ],
+      "test_shape": [
+        359,
+        768
+      ],
+      "model_name": "distilbert-base-uncased"
+    }
+  },
+  "0.4": {
+    "cv_accuracy": 0.8652201572949718,
+    "cv_f1": 0.8651394898031131,
+    "test_accuracy": 0.8675034867503487,
+    "test_f1": 0.8673227997138406,
+    "classification_report": {
+      "0": {
+        "precision": 0.8441558441558441,
+        "recall": 0.9027777777777778,
+        "f1-score": 0.87248322147651,
+        "support": 360.0
+      },
+      "1": {
+        "precision": 0.8945783132530121,
+        "recall": 0.8319327731092437,
+        "f1-score": 0.8621190130624092,
+        "support": 357.0
+      },
+      "accuracy": 0.8675034867503487,
+      "macro avg": {
+        "precision": 0.8693670787044281,
+        "recall": 0.8673552754435108,
+        "f1-score": 0.8673011172694596,
+        "support": 717.0
+      },
+      "weighted avg": {
+        "precision": 0.8692615923674046,
+        "recall": 0.8675034867503487,
+        "f1-score": 0.8673227997138406,
+        "support": 717.0
+      }
+    },
+    "model_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "embedding_info": {
+      "train_shape": [
+        2508,
+        768
+      ],
+      "test_shape": [
+        717,
+        768
+      ],
+      "model_name": "distilbert-base-uncased"
+    }
+  },
+  "0.6": {
+    "cv_accuracy": 0.8809142861179395,
+    "cv_f1": 0.8808495907483781,
+    "test_accuracy": 0.8568773234200744,
+    "test_f1": 0.856798137464043,
+    "classification_report": {
+      "0": {
+        "precision": 0.8457446808510638,
+        "recall": 0.8768382352941176,
+        "f1-score": 0.8610108303249098,
+        "support": 544.0
+      },
+      "1": {
+        "precision": 0.869140625,
+        "recall": 0.8364661654135338,
+        "f1-score": 0.8524904214559387,
+        "support": 532.0
+      },
+      "accuracy": 0.8568773234200744,
+      "macro avg": {
+        "precision": 0.8574426529255319,
+        "recall": 0.8566522003538257,
+        "f1-score": 0.8567506258904243,
+        "support": 1076.0
+      },
+      "weighted avg": {
+        "precision": 0.8573121922704263,
+        "recall": 0.8568773234200744,
+        "f1-score": 0.856798137464043,
+        "support": 1076.0
+      }
+    },
+    "model_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "embedding_info": {
+      "train_shape": [
+        3762,
+        768
+      ],
+      "test_shape": [
+        1076,
+        768
+      ],
+      "model_name": "distilbert-base-uncased"
+    }
+  },
+  "0.8": {
+    "cv_accuracy": 0.8800065937645233,
+    "cv_f1": 0.8799510328939533,
+    "test_accuracy": 0.8772663877266388,
+    "test_f1": 0.877265432759174,
+    "classification_report": {
+      "0": {
+        "precision": 0.8751733703190014,
+        "recall": 0.8800557880055788,
+        "f1-score": 0.8776077885952712,
+        "support": 717.0
+      },
+      "1": {
+        "precision": 0.879382889200561,
+        "recall": 0.8744769874476988,
+        "f1-score": 0.8769230769230769,
+        "support": 717.0
+      },
+      "accuracy": 0.8772663877266388,
+      "macro avg": {
+        "precision": 0.8772781297597811,
+        "recall": 0.8772663877266388,
+        "f1-score": 0.877265432759174,
+        "support": 1434.0
+      },
+      "weighted avg": {
+        "precision": 0.8772781297597813,
+        "recall": 0.8772663877266388,
+        "f1-score": 0.877265432759174,
+        "support": 1434.0
+      }
+    },
+    "model_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "embedding_info": {
+      "train_shape": [
+        5017,
+        768
+      ],
+      "test_shape": [
+        1434,
+        768
+      ],
+      "model_name": "distilbert-base-uncased"
+    }
+  },
+  "1.0": {
+    "cv_accuracy": 0.878664226665904,
+    "cv_f1": 0.8786329230185317,
+    "test_accuracy": 0.8845510317902956,
+    "test_f1": 0.8845444955600357,
+    "classification_report": {
+      "0": {
+        "precision": 0.8791208791208791,
+        "recall": 0.8918617614269788,
+        "f1-score": 0.8854454897620365,
+        "support": 897.0
+      },
+      "1": {
+        "precision": 0.8901472253680635,
+        "recall": 0.8772321428571429,
+        "f1-score": 0.8836424957841484,
+        "support": 896.0
+      },
+      "accuracy": 0.8845510317902956,
+      "macro avg": {
+        "precision": 0.8846340522444713,
+        "recall": 0.8845469521420608,
+        "f1-score": 0.8845439927730925,
+        "support": 1793.0
+      },
+      "weighted avg": {
+        "precision": 0.884630977412835,
+        "recall": 0.8845510317902956,
+        "f1-score": 0.8845444955600357,
+        "support": 1793.0
+      }
+    },
+    "model_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "embedding_info": {
+      "train_shape": [
+        6272,
+        768
+      ],
+      "test_shape": [
+        1793,
+        768
+      ],
+      "model_name": "distilbert-base-uncased"
+    }
+  }
+}
